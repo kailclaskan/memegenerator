@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Generator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="formHolder">
+        <form>
+            <label for="img">Image URL</label>
+            <input name="img" id="memeimage" type="text" placeholder="Place image URL in this box">
+            <label for="top">Insert Top Text</label>
+            <input name="top" id="toptext" type="text" placeholder="Place top line text here">
+            <label for="bottom">Insert Bottom Text</label>
+            <input name="bottom" id="bottomtext" type="text" placeholder="Place bottom line text here">
+            <label for="color">Text Color</label>
+            <input name='color' id='colorpicker' type="color">
+        </form>
+    </div>
+    <div id="subholder">
+        <form>
+            <input type="submit" id="subbutton">
+        </form>
+    </div>
+    <hr>
+    <script src="index.js"></script>
+</body>
+</html>
